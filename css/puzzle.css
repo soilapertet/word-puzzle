@@ -15,4 +15,7 @@ body
   background-repeat: no-repeat;
   background-size: cover; 
   background-attachment: fixed;
+  font-family: "Fuzzy Bubbles";
+  font-size:25px;
+  font-weight: 800;
 }
