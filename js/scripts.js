@@ -17,5 +17,7 @@ function replaceVowel() {
       withoutVowels += sampleString[i];
     }
   }
+  // Hide the input after clicking button
+ document.getElementById("word-puzzle").value = '';
  document.getElementById("output").innerHTML = ("Guess the word/sentence:<br>"+withoutVowels+"");
 }
