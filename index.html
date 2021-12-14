@@ -9,27 +9,30 @@
   <link rel="stylesheet" href="css/puzzle.css">
 <body>
   <div class="container">
-    <div class="card">
-      <div class="card-heading">
-        <h1>Word puzzle</h1>
+    <!-- Center vertically the components of the landing page -->
+    <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+      <div class="card">
+        <div class="card-heading">
+          <h1>Word puzzle</h1>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque 
-          volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, 
-          viverra non, semper suscipit, posuere a, pede.
-        </p>
-        <form name="word-puzzle" >
-          <label for="word-puzzle">Enter any sentence/word here:</label>
-          <br>
-          <input type="text" id="word-puzzle">
-          <br><br>
-          <button type="button" onclick="return replaceVowel()">Submit</button>
-        </form>
-        <div>
-          <p id="output"></p>
+      <div class="card">
+        <div class="card-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque 
+            volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, 
+            viverra non, semper suscipit, posuere a, pede.
+          </p>
+          <form name="word-puzzle" >
+            <label for="word-puzzle">Enter any sentence/word here:</label>
+            <br>
+            <input type="text" id="word-puzzle">
+            <br><br>
+            <button type="button" onclick="return replaceVowel()">Submit</button>
+          </form>
+          <div>
+            <p id="output"></p>
+          </div>
         </div>
       </div>
     </div>
