@@ -2,3 +2,10 @@
 {
   margin-top: 15px;;
 }
+body
+{
+  background-image: url(../images/letters.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+}
