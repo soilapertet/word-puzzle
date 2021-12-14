@@ -1,6 +1,7 @@
 .card
 {
   margin-top: 15px;
+  background-image:linear-gradient(to bottom, #eacda3, #d6ae7b);
 }
 body
 {
