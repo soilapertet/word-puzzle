@@ -2,6 +2,12 @@
 {
   margin-top: 15px;
   background-image:linear-gradient(to bottom, #eacda3, #d6ae7b);
+  border: 3px solid #455054;
+  opacity: 0.9;
+}
+.card-heading
+{
+  padding: 10px;
 }
 body
 {
